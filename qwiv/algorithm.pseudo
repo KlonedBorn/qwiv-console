@@ -1,0 +1,44 @@
+/* 
+    Algorithm specification for qwiv -> game mode
+*/
+
+set theme_list = new Color[]
+
+function init_themes() {
+    set theme_list = [
+        "red",
+        "orange",
+        "yellow",
+        "green",
+        "blue",
+        "magenta/purple"
+    ]
+}
+
+class Player do
+    - name
+    - theme
+    constructor(namme,theme) do
+        this.name = name;
+        this.theme = theme;
+    end
+end
+
+set group = new Player[2]
+
+function theme_in_use(theme) do
+    return theme_list[indexof(theme)]
+end
+
+function init_player(player) do
+    input player.name = name
+    input selected_theme
+end
+
+function start_quiz() do
+    if (players_initalized) do
+        init_player(group[0])
+        init_player(group[1])
+        set players_initalized = true
+    end
+end

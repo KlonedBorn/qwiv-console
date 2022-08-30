@@ -1,0 +1,6 @@
+What does multiple inheritance means,one class inheriting from more super classes,"one class inheriting from more super classes,more classes inheriting from one super class,more classes inheriting from more super classes,None of the above,(A) and (B) above"
+Which one of the following is Equality operator in Java?,!=,">=,<=,!=,+="
+Which one of the following is an Unary operator in Java?,++,"(),*,+,++"
+Which of the following operator has more precedence?,(),"(),++,*,>="
+What do you mean by >>> operator in Java,Zero Fill Right Shift,"Left Shift Operator,Right Shift Operator,Zero Fill Right Shift,Zero Fill Left Shift"
+Which of the following operators has more precedance in Java?,*,"-,+,*"
